@@ -43,7 +43,7 @@ header p {
 }
 .card .left button {
   padding: 10px 100px;
-  margin: 20px 20px 10px 30px;
+  margin: 20px 20px 10px 35px;
   background-color: hsl(71deg, 73%, 54%);
   border: none;
   color: white;
@@ -72,11 +72,5 @@ header p {
   .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media only screen and (min-width: 375px) {
-  .card .left button {
-    padding: 10px 50px;
-    margin-left: 55px;
   }
 }/*# sourceMappingURL=style.css.map */
