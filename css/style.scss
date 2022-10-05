@@ -75,24 +75,23 @@ p {
 }
 
 @media only screen and (min-width:1440px) {
-    body {
-        margin: 150px 400px;
+body {
+    margin: 150px 400px;
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+.left {
+p {
+    font-size: 15px;
+}
+button {
+    padding: 10px 80px;
     }
-    .card {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    .left {
-        p {
-            font-size: 15px;
-        }
-        button {
-            padding: 10px 80px;
-           
-        }
-    }
-        .right{
-        line-height: 1.5;
-    }
+}
+.right {
+    line-height: 1.5;
+}
     }
 }
 
