@@ -48,6 +48,7 @@ header p {
   border: none;
   color: white;
   font-size: 15px;
+  border-radius: 15px;
 }
 .card .right {
   background-color: #4ABEBD;
@@ -71,5 +72,11 @@ header p {
   .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 375px) {
+  .card .left button {
+    padding: 10px 50px;
+    margin-left: 55px;
   }
 }/*# sourceMappingURL=style.css.map */

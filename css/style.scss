@@ -51,6 +51,7 @@ button {
     border: none;
     color: white;
     font-size: 15px;
+    border-radius: 15px;
 }
 }
 .right {
@@ -77,3 +78,14 @@ p {
         grid-template-columns: repeat(2,1fr);
     }
 }
+@media only screen and (min-width:375px) {
+    .card {
+        .left {
+            button {
+                padding: 10px 50px;
+                margin-left: 55px;
+            }
+        }
+    }
+}
+
