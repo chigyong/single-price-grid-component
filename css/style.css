@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(204deg, 43%, 93%);
+  margin: 2rem;
+  font-family: "Karla", sans-serif;
+}
+
+header {
+  background-color: white;
+  padding: 30px 0;
+}
+header .cyan {
+  color: hsl(179deg, 38%, 37%);
+  padding: 1rem 1.5rem;
+  font-size: 20px;
+}
+header .lime {
+  color: hsl(71deg, 73%, 54%);
+}
+header p {
+  color: hsl(218deg, 22%, 67%);
+  padding: 0.5rem 1.5rem;
+}
+
+.card .left {
+  background-color: hsl(179deg, 62%, 43%);
+  padding: 2rem 1.5rem;
+  color: white;
+}
+.card .left .subs {
+  font-size: 20px;
+}
+.card .left .dollar {
+  font-size: 20px;
+}
+.card .left .dollar span {
+  opacity: 0.5;
+}
+.card .left button {
+  padding: 10px 100px;
+  margin: 20px 20px 10px 30px;
+  background-color: hsl(71deg, 73%, 54%);
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.card .right {
+  background-color: #4ABEBD;
+  padding: 2rem 1rem;
+  color: white;
+}
+.card .right span {
+  padding: 10px;
+  font-size: 20px;
+}
+.card .right p {
+  padding: 10px;
+  width: 70%;
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    margin: 150px 400px;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    margin: 2rem;
+    font-family: 'Karla', sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 30px 0;
+.cyan {
+    color:hsl(179, 38%, 37%);
+    padding: 1rem 1.5rem;
+    font-size: 20px;
+
+}
+.lime {
+    color: hsl(71, 73%, 54%);
+
+}
+p {
+    color: hsl(218, 22%, 67%);
+    padding: .5rem 1.5rem;
+    
+}
+}
+
+.card {
+.left {
+    background-color: hsl(179, 62%, 43%);
+    padding: 2rem 1.5rem;
+    color: white;
+.subs {
+    font-size: 20px;
+}
+.dollar {
+    font-size: 20px;
+span {
+    opacity: .5;
+}
+}
+button {
+    padding: 10px 100px;
+    margin: 20px 20px 10px 30px;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+}
+.right {
+    background-color: #4ABEBD;
+    padding: 2rem 1rem;
+    color: white;
+span {
+    padding: 10px;
+    font-size: 20px;
+}
+p {
+    padding: 10px;
+    width: 70%;
+    opacity: .5;
+}
+}
+}
+@media only screen and (min-width:1440px) {
+    body {
+        margin: 150px 400px;
+    }
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
