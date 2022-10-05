@@ -15,7 +15,7 @@ header {
   padding: 30px 0;
 }
 header .cyan {
-  color: hsl(179deg, 38%, 37%);
+  color: hsl(179deg, 62%, 43%);
   padding: 1rem 1.5rem;
   font-size: 20px;
 }
@@ -34,21 +34,24 @@ header p {
 }
 .card .left .subs {
   font-size: 20px;
+  line-height: 2;
 }
 .card .left .dollar {
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 2;
 }
 .card .left .dollar span {
+  font-size: 20px;
   opacity: 0.5;
 }
 .card .left button {
-  padding: 10px 100px;
+  padding: 15px 100px;
   margin: 20px 20px 10px 35px;
   background-color: hsl(71deg, 73%, 54%);
   border: none;
   color: white;
   font-size: 15px;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 .card .right {
   background-color: #4ABEBD;
@@ -62,7 +65,7 @@ header p {
 .card .right p {
   padding: 10px;
   width: 70%;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -72,5 +75,14 @@ header p {
   .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .card .left p {
+    font-size: 15px;
+  }
+  .card .left button {
+    padding: 10px 80px;
+  }
+  .card .right {
+    line-height: 1.5;
   }
 }/*# sourceMappingURL=style.css.map */
